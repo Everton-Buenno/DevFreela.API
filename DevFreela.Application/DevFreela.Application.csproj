@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DevFreela.Core\DevFreela.Core.csproj" />
+    <ProjectReference Include="..\DevFreela.Infrastructure\DevFreela.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Commands\DeleteProject\" />
+    <Folder Include="Commands\UpdateProject\" />
+    <Folder Include="Commands\StartProject\" />
+    <Folder Include="Commands\InsertProject\" />
+    <Folder Include="Commands\InsertComment\" />
+    <Folder Include="Queries\GetProjectById\" />
+    <Folder Include="Queries\GetAllProjects\" />
+  </ItemGroup>
+
+</Project>
