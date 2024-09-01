@@ -16,7 +16,7 @@ DevFreela é uma plataforma de freelancing desenvolvida como parte do treinament
 - **Frontend**: Angular (a ser implementado)
 - **Banco de Dados**: SQL Server / MySQL
 - **Autenticação**: JWT (JSON Web Tokens) - (a ser implementado)
-- **Outras Ferramentas**: Docker (a ser implementado), Entity Framework Core, AutoMapper
+- **Outras Ferramentas**: Docker (a ser implementado), Entity Framework Core
 
 ## Pré-requisitos
 
